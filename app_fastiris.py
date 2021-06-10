@@ -16,7 +16,7 @@ import pickle
 
 # Create the app object
 app = FastAPI()
-pickle_in = open('logreg2.pkl',"rb")
+pickle_in = open('logreg.pkl',"rb")
 logreg2=pickle.load(pickle_in)
 
 # data dictionary for label
